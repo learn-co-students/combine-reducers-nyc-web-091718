@@ -7,6 +7,7 @@ import Books from './components/Books';
 
 export class App extends Component {
   render() {
+    console.log('in App', this.props);
     return (
       <div className="App">
         <div>
